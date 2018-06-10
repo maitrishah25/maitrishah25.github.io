@@ -389,11 +389,11 @@
 				</div>
 				<!-- Call to Action Section End -->
 
-				<!-- Contact Form -->
-				<section class="section-block replicable-content contact-2" id="connect">
+				<!--Contact Form -->
+				<section id="connect" class="section-block replicable-content contact-2">
 					<div class="row">
 						<div class="column width-8 offset-2 center">
-							<h2 class="mb-30">Connect With Us</h2>
+							<h2 class="mb-30">Say Hello</h2>
 							<div class="contact-form-container">
 								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
 									<div class="row">
@@ -407,6 +407,20 @@
 											<input type="email" name="email" class="form-email form-element large" placeholder="Email address*" tabindex="3" required>
 										</div>
 										<div class="column width-6">
+											<input type="text" name="website" class="form-website form-element large" placeholder="Website" tabindex="4">
+										</div>
+										<div class="column width-6">
+											<div class="form-select form-element large">
+												<select name="options" class="form-aux" data-label="Options" tabindex="5">
+													<option selected="selected" value="">I would like to...</option>
+													<option value="">share an idea for a new program.</option>
+													<option value="">receive help with an upcoming PLI program I am working on.</option>
+													<option value=""> get personal guidance on professional development of my attorneys.</option>
+													<option value="">(other - provide details)</option>
+												</select>
+											</div>
+										</div>
+										<div class="column width-6">
 											<input type="text" name="honeypot" class="form-honeypot form-element large">
 										</div>
 									</div>
@@ -416,8 +430,14 @@
 												<textarea name="message" class="form-message form-element large" placeholder="Message*" tabindex="7" required></textarea>
 											</div>
 										</div>
+										<!-- <div class="column width-12">
+											<div class="field-wrapper pt-10 pb-10">
+											 	<input id="checkbox-1" class="form-element checkbox" name="checkbox-1" type="checkbox" required>
+												<label for="checkbox-1" class="checkbox-label">I want to receive your newsletter</label>
+											</div>
+										</div> -->
 										<div class="column width-12">
-											<input type="submit" value="Send Email" class="form-submit button medium bkg-theme bkg-hover-charcoal color-white color-hover-white text-uppercase">
+											<input type="submit" value="Send Email" class="form-submit button medium bkg-theme bkg-hover-theme color-white color-hover-white weight-bold">
 										</div>
 									</div>
 								</form>
