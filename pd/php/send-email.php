@@ -1,6 +1,6 @@
 <?php
 	// Your Email
-	$recipient = "mshah@pli.edu"; // PLEASE SET YOUR EMAIL ADDRESS
+	$recipient = "maitrikumar25@gmail.com"; // PLEASE SET YOUR EMAIL ADDRESS
 	$recaptcha_secret_key = 'yourAPIkey'; // PLEASE SET YOUR GOOGLE RECAPTCHA API KEY. If you are not using, please leave it blank.
 
 	if(!empty($recaptcha_secret_key) && array_key_exists('recaptcha',$_POST) ) {
