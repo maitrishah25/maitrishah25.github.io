@@ -72,7 +72,7 @@ textarea,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a{
 		/*font-family: 'Lato', 'Helvetica Neue', sans-serif;*/
-		font-family: 'Helvetica Neue', Arial, sans-serif;
+		/*font-family: 'Helvetica Neue', Arial, sans-serif;*/
 }
 
 /* Titles */
@@ -421,7 +421,7 @@ body,
 	color: #e4002b;
 }
 .color-hover-theme:hover{
-	color: #0badc1;
+	color: #e4002b;
 }
 
 /*------------------------------------------------------------------
@@ -1715,6 +1715,20 @@ body,
 /*------------------------------------------------------------------
 [12. Plugin Preloader]
 */
+
+/*ms-arrow*/
+.ms-arrow {
+	transform: translateY(0);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 750ms ease-in-out;
+  -ms-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+}
+
+.lift {
+  transform: translateY(14px);
+}
 
 .tm-loader {
 	width: 5rem;
@@ -3511,7 +3525,7 @@ blockquote.border{
 	color: #232323;
 }
 .tabs .tab-panes{
-	padding: 3rem;
+	padding: 1.5rem;
 }
 .tabs[class*="style-"] .tab-nav > li{
 	margin: 0 !important;
@@ -3820,7 +3834,7 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Intro Sections */
 	.intro-title-2{
-		background-image: url(../images/intro2.png);	
+		background-image: url(../images/intro.png);	
 	}
 	.intro-title-2-1{
 		background-image: url(../images/slider/slide-8-page-intro@2x.jpg);	
