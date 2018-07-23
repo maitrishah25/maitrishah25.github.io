@@ -1880,7 +1880,7 @@ body,
 	background-image: url(../images/generic/hero-half-1.jpg);
 }
 .hero-5-2 .media-column{
-	background-image: url(../images/iStock-610046942.jpg);
+	background-image: url(../images/building-blocks.png);
 }
 
 /* Call to Action */
@@ -3879,7 +3879,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/generic/hero-half-1@2x.jpg);
 	}
 	.hero-5-2 .media-column{
-		background-image: url(../images/team/hero-half-2@2x.jpg);
+		background-image: url(../images/building-blocks.png);
 	}
 	.hero-5-3 .media-column{
 		background-image: url(../images/services/hero-half-1@2x.jpg);
