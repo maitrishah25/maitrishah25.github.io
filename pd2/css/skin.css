@@ -50,7 +50,7 @@ body{
 	font-weight: 400;
 	font-size: 1.4rem;
 	line-height: 1.8;
-	color: #666;
+	color: #545454;
 }
 h1, 
 h2, 
@@ -85,7 +85,7 @@ h6{
 	line-height: 1.2;
 	font-weight: 300;
 	text-transform: none;
-	color: #000;
+	color: #545454;
 }
 h1 a:hover,
 h2 a:hover,
@@ -1990,7 +1990,7 @@ body,
 	background-image: url(../images/635975012.jpg);
 }
 .hero-4-1{
-	background-image: url(../images/Anita_Shapiro2.png);
+	background-image: url(../images/seedling.png);
 }
 .hero-5-3 .media-column{
 	background-image: url(../images/services/hero-half-1.jpg);
@@ -3873,7 +3873,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/635975012.jpg);
 	}
 	.hero-4-1{
-		background-image: url(../images/Anita_Shapiro2.png);
+		background-image: url(../images/seedling.png);
 	}
 	.hero-5-1 .media-column{
 		background-image: url(../images/generic/hero-half-1@2x.jpg);
