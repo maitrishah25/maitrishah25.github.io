@@ -570,7 +570,7 @@
 									<p class="post-info">Tools</p>
 									<h2 class="mb-30">Creating Effective CLE Presentations</h2>
 									<div>
-										<span class="ms-share post-info">&nbsp;<span class="fa fa-share">&nbsp;</span>Share this List</span>
+										<h5 class="post-info"><span class="ms-share">&nbsp;<span class="fa fa-share">&nbsp;</span>Share this List</span></h5>
 										<a class="ms-share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//172.16.110.96/pd/index.html%23tools&title=&summary=&source=" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A//172.16.110.96/pd/index.html%23tools&title=&summary=&source=','popup','width=400,height=400'); return false;"><span class="fab fa-linkedin-in"></a>
 										<a class="ms-share-link" href="https://twitter.com/home?status=http%3A//172.16.110.96/pd/index.html%23tools" target="popup" onclick="window.open('https://twitter.com/home?status=http%3A//172.16.110.96/pd/index.html%23tools','popup','width=400,height=400'); return false;"><span class="fab fa-twitter"></a>
 										<a class="ms-share-link" href="mailto:?&body=http%3A//172.16.110.96/pd/index.html%23tools"><span class="fa fa-envelope"></span></a>
@@ -669,7 +669,7 @@
 										</li>
 									</ul>
 									<div>
-										<span class="ms-share post-info">&nbsp;<span class="fa fa-share">&nbsp;</span>Share this List</span>
+										<h5 class="post-info"><span class="ms-share">&nbsp;<span class="fa fa-share">&nbsp;</span>Share this List</span></h5>
 										<a class="ms-share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//172.16.110.96/pd/index.html%23tools&title=&summary=&source=" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A//172.16.110.96/pd/index.html%23tools&title=&summary=&source=','popup','width=400,height=400'); return false;"><span class="fab fa-linkedin-in"></a>
 										<a class="ms-share-link" href="https://twitter.com/home?status=http%3A//172.16.110.96/pd/index.html%23tools" target="popup" onclick="window.open('https://twitter.com/home?status=http%3A//172.16.110.96/pd/index.html%23tools','popup','width=400,height=400'); return false;"><span class="fab fa-twitter"></a>
 										<a class="ms-share-link" href="mailto:?&body=http%3A//172.16.110.96/pd/index.html%23tools"><span class="fa fa-envelope"></span></a>
@@ -899,8 +899,8 @@
 	};
 
 	$(".ms-share").click(function(){
-		$(".ms-share-link").toggleClass("ms-show");
-		$(".ms-share").toggleClass("ms-share-clicked");
+		$(this).toggleClass("ms-share-clicked");
+		$(this).parent().siblings(".ms-share-link").toggleClass("ms-show");
 	});
 
 	setInterval(arrowBounce, 800);
