@@ -473,29 +473,16 @@
 
 	<!-- Js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://learning.pli.edu/l/496051/2018-07-17/x2jxs/496051/57383/timber.master.min.js"></script>
+	<script src="js/timber.master.min.js"></script>
 	<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 	<script type="text/javascript">
-		piAId = '497051';
-		piCId = '9761';
-		piHostname = 'pi.pardot.com';
- 
-		(function() {
-            function async_load(){
-                var s = document.createElement('script'); s.type = 'text/javascript';
-                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
-                }
-                if(window.attachEvent) { window.attachEvent('onload', async_load); }
-                else { window.addEventListener('load', async_load, false); }
-		})();
 
 	 $(document).on('submit', '.contact-form', function(e) {
 	  
       $.ajax({
-         url: "http://learning.pli.edu/l/496051/2018-06-25/wy9yn",
-         type: $(this).attr('method'),
-         data: $(this).serialize(),
+        url: $(this).attr('action'),
+        type: $(this).attr('method'),
+        data: $(this).serialize(),
          success: function(html) {
          setTimeout(function() { 
          	$(".form-response").text("Thank you, your response has been submitted."); 
