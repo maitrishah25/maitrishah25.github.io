@@ -422,7 +422,7 @@ body,
 	border-color: #c61826;
 }
 .border-theme{
-	border-color: #0cbacf;
+	border-color: #e4002b;
 }
 .border-hover-theme:hover{
 	border-color: #0badc1;
@@ -514,8 +514,16 @@ body,
 }
 .tm-slider-container .text-line-vertical:after{
 	height: 50rem;
-	border-color: #fff;
+	border-color: #000;
+	/*border-color: #fff;*/
 }
+
+.ms-feature-intro {
+	position: absolute;
+	bottom: 1rem;
+}
+
+
 @media only screen and (min-width: 960px){
 	.header-1-static + .content{
 		padding-top: 8rem;
@@ -1910,7 +1918,7 @@ body,
 
 /* Call to Action */
 .call-to-action-2-1{
-	background-image: url(http://learning.pli.edu/l/496051/2018-08-07/x56kb/496051/58983/building_blocks_poster.png);
+	/*background-image: url(http://learning.pli.edu/l/496051/2018-08-07/x56kb/496051/58983/building_blocks_poster.png);*/
 	background-size: cover;
 	background-position: center;
 }
@@ -2015,7 +2023,7 @@ body,
 	background-image: url(../images/635975012.jpg);
 }
 .hero-4-1{
-	background-image: url(http://learning.pli.edu/l/496051/2018-08-07/x56kd/496051/58985/seedling.png);
+	background-image: url(../images/touching-device.png);
 }
 .hero-5-3 .media-column{
 	/*background-image: url(../images/services/hero-half-1.jpg);*/
@@ -3850,7 +3858,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/635975012.jpg);
 	}
 	.hero-4-1{
-		background-image: url(http://learning.pli.edu/l/496051/2018-08-07/x56kd/496051/58985/seedling.png);
+		background-image: url(../images/touching-device.png);
 	}
 	.hero-5-1 .media-column{
 		/*background-image: url(../images/generic/hero-half-1@2x.jpg);*/
@@ -3867,7 +3875,7 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Call to Action Sections */
 	.call-to-action-2-1{
-		background-image: url(http://learning.pli.edu/l/496051/2018-08-07/x56kb/496051/58983/building_blocks_poster.png);
+		/*background-image: url(http://learning.pli.edu/l/496051/2018-08-07/x56kb/496051/58983/building_blocks_poster.png);*/
 	}
 
 	/* Signup */
