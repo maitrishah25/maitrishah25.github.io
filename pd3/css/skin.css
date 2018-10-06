@@ -52,6 +52,17 @@ select::-ms-expand {
     display: none;
 
 }
+
+@font-face {
+    font-family: "Helvetica-Roman";
+    src: url(fonts/HelveticaNeueLTPro-Roman.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Helvetica-Md";
+    src: url(fonts/HelveticaNeueLTPro-Md.ttf) format("truetype");
+}
+
 body{
 	/*font-family: 'Open Sans', 'Helvetica Neue', sans-serif;*/
 	/*font-family: 'Helvetica Neue', Arial, sans-serif;*/
@@ -158,8 +169,8 @@ h6{
 
 /* Title Classes */
 .title-xlarge{
-	font-size: 7.749rem;
-	line-height: 1.2;
+	font-size: 10rem;
+	line-height: 10rem;
 }
 .title-large{
 	font-size: 5.826rem;
@@ -540,8 +551,12 @@ body,
 [4. Header Styling]
 */
 
-.ms-lspacing-small{
-	letter-spacing:-.2rem;
+.helvetica-md {
+	font-family: "helvetica-md";
+}
+
+.helvetica-roman {
+	font-family: "helvetica-roman";
 }
 
 /* Initial Position */
@@ -916,6 +931,31 @@ body,
 /*------------------------------------------------------------------
 [7. Header Nav Icons, Buttons, Dropdowns ]
 */
+
+.ms-shadow {
+	box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,.2);
+}
+
+/*ms-badge*/
+.ms-badge {
+	background-color: #e4002b;
+	padding: .3rem .8rem;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.ms-badge:hover {
+	color: white;
+}
+
+.ms-inline-block {
+	display: inline-block;
+}
 
 /* Padding & Margins */
 .header .dropdown-list{
