@@ -66,7 +66,7 @@ select::-ms-expand {
 body{
 	/*font-family: 'Open Sans', 'Helvetica Neue', sans-serif;*/
 	/*font-family: 'Helvetica Neue', Arial, sans-serif;*/
-	font-family: Arial, sans-serif;
+	/*font-family: Arial, sans-serif;*/
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.4rem;
@@ -184,6 +184,10 @@ h6{
 	font-size: 1.4rem;
 	line-height: 1.2;
 }
+.ms-milana{
+	font-size: 6.45rem;
+}
+	
 
 /* Lead */
 .lead,
@@ -309,6 +313,9 @@ a.animated-link:hover .text-line,
 	}
 	.title-small{
 		font-size: 1.2rem;
+	}
+	.ms-milana{
+		font-size:4.8rem;
 	}
 	.tms-caption.title-xlarge,
 	.tmp-content .title-xlarge{
@@ -938,7 +945,7 @@ body,
 
 /*ms-badge*/
 .ms-badge {
-	background-color: #e4002b;
+	background-color: #05754b;
 	padding: .3rem .8rem;
 	color: white;
 	font-weight: bold;
@@ -1705,7 +1712,7 @@ body,
 */
 
 .tm-lightbox{
-	background: rgba(255,255,255,1);
+	background: rgba(0,0,0,.9);
 }
 #tml-content-wrapper.zoomed + #tml-caption span{
 	background-color: rgba(0,0,0,0.3);
