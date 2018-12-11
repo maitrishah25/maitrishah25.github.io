@@ -1880,7 +1880,7 @@ body,
 }
 
 .hero-4-1{
-	background-image: url(../images/hero-1a.jpg);
+	background-image: url(../images/rear-view.jpg);
 }
 .hero-5-1 .media-column{
 	background-image: url(../images/travel-agency/generic/hero-half-1.jpg);
@@ -3738,7 +3738,7 @@ only screen and (				min-resolution: 2dppx) {
 	}
 
 	.hero-4-1{
-		background-image: url(../images/hero-1@2xa.jpg);
+		background-image: url(../images/rear-view.jpg);
 	}
 	.hero-5-1 .media-column{
 		background-image: url(../images/travel-agency/generic/hero-half-1@2x.jpg);
