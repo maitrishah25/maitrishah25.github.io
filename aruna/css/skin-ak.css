@@ -1890,6 +1890,10 @@ body,
 }
 
 /* Call to Action */
+.ms-pl-35 {
+	padding-left: 3.5rem;
+}
+
 .ms-bg-bottom{
 	background-position: bottom;
 }
