@@ -621,8 +621,9 @@ body,
 /* Header Inner Top */
 .header .header-inner-top{
 	height: 4rem;
-	background: #232323;
+	background: #e4002b;
 	color: #fff;
+	line-height: 2.5;
 }
 
 /* Mobile Header Styles & Breakpoints */
