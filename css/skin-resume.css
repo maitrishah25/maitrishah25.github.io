@@ -79,7 +79,7 @@ h6{
 	line-height: 1.2;
 	font-weight: 400;
 	text-transform: none;
-	color: #666;
+	/*color: #666;*/
 }
 h1 a:hover,
 h2 a:hover,
@@ -3339,9 +3339,10 @@ blockquote.border{
 	background-color: #f4f4f4;
 	border-color: #f4f4f4;
 	color: #666;
-	font-size: 1.1rem;
+	/*font-size: 1.1rem;*/
 	font-weight: 400;
-	text-transform: uppercase;
+	text-align: center;
+	/*text-transform: uppercase;*/
 }
 .accordion > ul > li.active > a,
 .accordion > ul > li.active > a:hover{
@@ -3376,12 +3377,20 @@ blockquote.border{
 }
 /* style 2 */
 .accordion.style-2 > ul > li > a{
-	padding: 1.3rem 0;
+	padding: 4rem 0;
 	border: none;
 	font-weight: 400;
 	background-color: transparent;
 	border-bottom: 1px solid #eee;
 	color: #666;
+}
+.accordion.style-2 > ul > li > a:hover{
+	padding: 4rem 0;
+	border: none;
+	font-weight: 400;
+	background-color: transparent;
+	border-bottom: 1px solid #eee;
+	color: #27ccc0;
 }
 .accordion.style-2 > ul > li.active > a,
 .accordion.style-2 > ul > li.active > a:hover{
