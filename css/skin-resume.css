@@ -914,10 +914,13 @@ body,
 /* Button, Dropdown Button Initial, Hover & Active Colors */
 .header .v-align-middle > .button:not(.nav-icon),
 .header .dropdown > .button:not(.nav-icon){
-	background: transparent;
+	/*background: transparent;
 	border-color: rgba(255,255,255,0.2);
-	color: #fff;
+	color: #fff;*/
 	text-transform: uppercase;
+	background: #232323;
+	border-color: transparent;
+	color: #fff;
 }
 .header .v-align-middle > .button:not(.nav-icon):hover,
 .header .dropdown > .button:not(.nav-icon):hover,
