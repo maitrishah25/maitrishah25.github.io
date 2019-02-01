@@ -66,7 +66,7 @@ textarea,
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a{
-		font-family: Georgia, 'Roboto', 'Helvetica Neue', sans-serif;
+		font-family: /*Georgia,*/ 'Lato', 'Helvetica Neue', sans-serif;
 }
 
 /* Titles */
@@ -507,7 +507,7 @@ body,
 
 /* Initial Position */
 .header-bottom{
-	bottom: 0.1rem;
+	bottom: 0;
 }
 
 /* Intial Height */
@@ -545,6 +545,10 @@ body,
 }
 .header-transparent .header-inner > .nav-bar{
 	border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+.header-bottom.header-transparent .header-inner > .nav-bar{
+	border-top: 1px solid rgba(255,255,255, 0.2);
+	border-bottom: none;
 }
 
 /* Background Header - On Scroll! */
