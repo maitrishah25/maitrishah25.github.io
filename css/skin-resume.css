@@ -3146,6 +3146,20 @@ a.disabled .text-line{
 [27. Component Styling]
 */
 
+.ms-icon {
+	position: relative;
+	top: -8px;
+}
+
+.ms-icon-left {
+	left: -10px;
+}
+
+.ms-icon-right {
+	left: 2px;
+	margin-left: 0px;
+}
+
 img.ms-grayscale{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
