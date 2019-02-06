@@ -3146,6 +3146,14 @@ a.disabled .text-line{
 [27. Component Styling]
 */
 
+.ms-project {
+	transition: all .2s ease-in-out;
+}
+
+.ms-project:hover {
+	transform: scale(1.2);
+}
+
 .ms-icon {
 	position: relative;
 	top: -8px;
