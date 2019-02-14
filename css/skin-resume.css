@@ -3221,6 +3221,11 @@ blockquote.border{
 }
 
 /* Feature Section */
+
+.feature-3 {
+	background-image: url("../images/creative-workstation.jpg");
+}
+
 .feature-2 .feature-image img{
 	width: 90%;	
 }
