@@ -714,6 +714,7 @@ body,
 .header .navigation > ul > li > a{
 	color: #999;
 	opacity: 1;
+	font-weight: bold;
 }
 .header .navigation > ul > li.current > a,
 .header .navigation > ul > li > a:hover{
@@ -3152,7 +3153,7 @@ a.disabled .text-line{
 }
 
 .ms-project:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .ms-icon {
