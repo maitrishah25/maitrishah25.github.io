@@ -936,6 +936,31 @@ body,
 	color: #fff;
 }
 
+.ms-shadow {
+	box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,.2);
+}
+
+/*ms-badge*/
+.ms-badge {
+	background-color: #66CD00;
+	padding: .3rem .8rem;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.ms-badge:hover {
+	color: white;
+}
+
+.ms-inline-block {
+	display: inline-block;
+}
+
 /* Transparent Header Division Color */
 @media only screen and (min-width: 960px){
 	.header-transparent .with-division ul{
