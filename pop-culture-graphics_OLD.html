@@ -21,105 +21,6 @@
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <style type="text/css">
-    	.parallax {
-    		height: 100vh;
-    		overflow-x: hidden;
-    		overflow-y: auto;
-    		-webkit-perspective: 300px;
-    		perspective: 300px;
-    	}
-    	.parallax-group {
-    		position: relative;
-    		height: 100vh;
-    		-webkit-transform-style: preserve-3d;
-    		transform-style: preserve-3d;
-    	}
-    	.parallax-layer {
-    		position: absolute;
-    		top: 0;
-    		left: 0;
-    		right: 0;
-    		bottom: 0;
-    	}
-    	.parallax-layer-fore {
-    		-webkit-transform: translateZ(90px) scale(.2);
-    		transform: translateZ(90px) scale(.2);
-    		z-index: 1;
-    	}
-    	.parallax-layer-base {
-    		-webkit-transform: translateZ(0) scale(.5);
-    		transform: translateZ(0) scale(.5);
-    		z-index: 4;
-    	}
-    	.parallax-layer-back {
-    		-webkit-transform: translateZ(-300px) scale(.9);
-    		transform: translateZ(-300px) scale(.9);
-    		z-index: 3;
-    	}
-    	.parallax-layer-deep {
-    		-webkit-transform: translateZ(-600px) scale(1.1);
-    		transform: translateZ(-600px) scale(1.1);
-    		z-index: 2;
-    	}
-    	#group1 {
-    		z-index: 5;
-    	}
-    	#group2 {
-    		z-index: 3;
-    	}
-    	#group3 {
-    		z-index: 4;
-    	}
-    	#group4 {
-    		z-index: 2;
-    	}
-    	.group1-lime {
-    		position: absolute;
-    		left: -25%;
-    	}
-    	.group1-green {
-    		position: absolute;
-    		top: 40%;
-    		right: -105%;
-    	}
-    	.group2-orange {
-    		position: absolute;
-    		top: 40%;
-    		left: -45%;
-    	}
-    	.group2-blue {
-    		position: absolute;
-    		right: -102%;
-    	}
-    	.group2-yellow {
-    		position: absolute;
-    		top: 56%;
-    		right: -65%;
-    	}
-    	.group3-bluesmall {
-    		position: absolute;
-    		top: 45%;
-    		left: -86%;
-    	}
-    	.group3-red {
-    		position: absolute;
-    		top: 80%;
-    		left: -93%;
-    	}
-    	.group4-orange {
-    		position: absolute;
-    		top: 80%;
-    		right: 58%;
-    	}
-    	.group4-green {
-    		position: absolute;
-    		top: 55%;
-    		left: 0%;
-    	}
-    </style>
-
 </head>
 <body class="blog">
 
@@ -190,8 +91,6 @@
 				</div>
 			</header>
 			<!-- Header End -->
-		</div>
-	</div>
 
 			<!-- Content -->
 			<div class="content clearfix">
@@ -239,62 +138,61 @@
 									</div>
 									<div id="tabs-4-pane-2">
 										<div class="tab-content">
-											<div class="parallax">
-												<div id="group1" class="parallax-group">
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group1-lime">
-															<img src="images/project_images/pop/3d-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-fore">
-														<div class="group1-green">
-															<img src="images/project_images/pop/les-twins-poster-1041x1041.png">
-														</div>
-													</div>
-												</div>
-												<div id="group2" class="parallax-group">
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group2-orange">
-															<img src="images/project_images/pop/jt-poster-glitch2-1041x1041.gif">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-fore">
-														<div class="group2-blue">
-															<img src="images/project_images/pop/bey-poster-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-deep">
-														<div class="group2-yellow">
-															<img src="images/project_images/pop/3d-glitch-1041x1041.png">
-														</div>
-													</div>
-												</div>
-												<div id="group3" class="parallax-group">
-													<div class="parallax-layer parallax-layer-fore">
-														<div class="group3-bluesmall">
-															<img src="images/project_images/pop/fluid-gradient-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group3-red">
-															<img src="images/project_images/pop/drake-poster-1041x1041.png">
-														</div>
-													</div>
-												</div>
-												<div id="group4" class="parallax-group">
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group4-orange">
-															<img src="images/project_images/pop/wayne-poster-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-back">
-														<div class="group4-green">
-															<img src="images/project_images/pop/bsb-poster4-1041x1041.png">
+											<!-- Portfolio Grid -->
+											<div class="section-block grid-container fade-in-progressively no-padding-top" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0" data-as-bkg-image>
+												<div class="row">
+													<div class="column width-12">
+														<div class="row grid content-grid-3">
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/les-twins-poster-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/jt-poster-glitch2-1041x1041.gif" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/bey-poster-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/3d-glitch-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/drake-poster-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/fluid-gradient-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/wayne-poster-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/3d-1041x1041.png" alt=""/>
+																</div>
+															</div>
+															<div class="grid-item grid-sizer photography">
+																<div class="thumbnail">
+																	<img src="images/project_images/pop/bsb-poster4-1041x1041.png" alt=""/>
+																</div>
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-											<!-- parallax test end -->
+											<!-- Portfolio Grid Section 5 End -->
 										</div>
 									</div>
 									<div id="tabs-4-pane-3">

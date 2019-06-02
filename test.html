@@ -44,24 +44,63 @@
     		bottom: 0;
     	}
     	.parallax-layer-fore {
-    		-webkit-transform: translateZ(90px) scale(.2);
-    		transform: translateZ(90px) scale(.2);
+    		-webkit-transform: translateZ(90px) scale(.7);
+    		transform: translateZ(90px) scale(.7);
     		z-index: 1;
     	}
     	.parallax-layer-base {
-    		-webkit-transform: translateZ(0) scale(.5);
+    		-webkit-transform: translateZ(0);
     		transform: translateZ(0) scale(.5);
     		z-index: 4;
     	}
     	.parallax-layer-back {
-    		-webkit-transform: translateZ(-300px) scale(.9);
-    		transform: translateZ(-300px) scale(.9);
-    		z-index: 3;
+    		-webkit-transform: translateZ(-300px);
+    		transform: translateZ(-300px) scale(1.3);
+    		z-index: 3
     	}
     	.parallax-layer-deep {
-    		-webkit-transform: translateZ(-600px) scale(1.1);
-    		transform: translateZ(-600px) scale(1.1);
+    		-webkit-transform: translateZ(-600px);
+    		transform: translateZ(-600px) scale(1.5);
     		z-index: 2;
+    	}
+    	.group1-green {
+    		position: absolute;
+    		top: 40%;
+    		right: -30%;
+    	}
+    	.group2-orange {
+    		position: absolute;
+    		top: 60%;
+    		left: 5%;
+    	}
+    	.group2-blue {
+    		position: absolute;
+    		left: 45%;
+    	}
+    	.group2-yellow {
+    		position: absolute;
+    		top: 56%;
+    		right: 26%;
+    	}
+    	.group3-bluesmall {
+    		position: absolute;
+    		top: 45%;
+    		left: 65%;
+    	}
+    	.group3-red {
+    		position: absolute;
+    		top: 80%;
+    		left: 42%;
+    	}
+    	.group4-orange {
+    		position: absolute;
+    		top: 80%;
+    		left: 15%;
+    	}
+    	.group4-green {
+    		position: absolute;
+    		top: 55%;
+    		left: 0%;
     	}
     	#group1 {
     		z-index: 5;
@@ -74,49 +113,6 @@
     	}
     	#group4 {
     		z-index: 2;
-    	}
-    	.group1-lime {
-    		position: absolute;
-    		left: -25%;
-    	}
-    	.group1-green {
-    		position: absolute;
-    		top: 40%;
-    		right: -105%;
-    	}
-    	.group2-orange {
-    		position: absolute;
-    		top: 40%;
-    		left: -45%;
-    	}
-    	.group2-blue {
-    		position: absolute;
-    		right: -102%;
-    	}
-    	.group2-yellow {
-    		position: absolute;
-    		top: 56%;
-    		right: -65%;
-    	}
-    	.group3-bluesmall {
-    		position: absolute;
-    		top: 45%;
-    		left: -86%;
-    	}
-    	.group3-red {
-    		position: absolute;
-    		top: 80%;
-    		left: -93%;
-    	}
-    	.group4-orange {
-    		position: absolute;
-    		top: 80%;
-    		right: 58%;
-    	}
-    	.group4-green {
-    		position: absolute;
-    		top: 55%;
-    		left: 0%;
     	}
     </style>
 
@@ -190,8 +186,6 @@
 				</div>
 			</header>
 			<!-- Header End -->
-		</div>
-	</div>
 
 			<!-- Content -->
 			<div class="content clearfix">
@@ -210,107 +204,61 @@
 				</div>
 				<!-- Intro Title Section 2 End -->
 
-								<!-- Tabs Style 2 -->
-				<div class="section-block pt-0 pb-0">
-					<div class="row">
-						<!-- <div class="column width-4">
-							<h3 class="mb-50">Style Two</h3>
-						</div> -->
-						<div class="column width-10 offset-1">
-							<div class="tabs style-1 center">
-								<ul class="tab-nav bkg-charcoal pt-10 pb-10">
-									<li class="active">
-										<a href="#tabs-4-pane-1">Vexel</a>
-									</li>
-									<li>
-										<a href="#tabs-4-pane-2">Music</a>
-									</li>
-									<li>
-										<a href="#tabs-4-pane-3">Sports</a>
-									</li>
-								</ul>
-								<div class="tab-panes">
-									<div id="tabs-4-pane-1" class="active animate">
-										<div class="tab-content">
-											<img class="mb-80" src="images/project_images/pop/vexel/alicia-vexel-1920x1080.png">
-											<img class="mb-80" src="images/project_images/pop/vexel/zhavia-vexel-1920x1080.png">
-											<img class="mb-80" src="images/project_images/pop/vexel/miley-vexel-1920x1080.png">
-										</div>
-									</div>
-									<div id="tabs-4-pane-2">
-										<div class="tab-content">
-											<div class="parallax">
-												<div id="group1" class="parallax-group">
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group1-lime">
-															<img src="images/project_images/pop/3d-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-fore">
-														<div class="group1-green">
-															<img src="images/project_images/pop/les-twins-poster-1041x1041.png">
-														</div>
-													</div>
-												</div>
-												<div id="group2" class="parallax-group">
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group2-orange">
-															<img src="images/project_images/pop/jt-poster-glitch2-1041x1041.gif">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-fore">
-														<div class="group2-blue">
-															<img src="images/project_images/pop/bey-poster-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-deep">
-														<div class="group2-yellow">
-															<img src="images/project_images/pop/3d-glitch-1041x1041.png">
-														</div>
-													</div>
-												</div>
-												<div id="group3" class="parallax-group">
-													<div class="parallax-layer parallax-layer-fore">
-														<div class="group3-bluesmall">
-															<img src="images/project_images/pop/fluid-gradient-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group3-red">
-															<img src="images/project_images/pop/drake-poster-1041x1041.png">
-														</div>
-													</div>
-												</div>
-												<div id="group4" class="parallax-group">
-													<div class="parallax-layer parallax-layer-base">
-														<div class="group4-orange">
-															<img src="images/project_images/pop/wayne-poster-1041x1041.png">
-														</div>
-													</div>
-													<div class="parallax-layer parallax-layer-back">
-														<div class="group4-green">
-															<img src="images/project_images/pop/bsb-poster4-1041x1041.png">
-														</div>
-													</div>
-												</div>
-											</div>
-											<!-- parallax test end -->
-										</div>
-									</div>
-									<div id="tabs-4-pane-3">
-										<div class="tab-content">
-											<img class="mb-80" src="images/project_images/pop/sports/sports-comp-1920x1080.png">
-											<img class="mb-80" src="images/project_images/pop/sports/sports-poster-1920x1080.png">
-											<img class="mb-80" src="images/project_images/pop/sports/sports-poster2-1920x1080v2.png">
-											<img class="mb-80" src="images/project_images/pop/sports/sports-poster3-1920x1080.png">
-										</div>
-									</div>
-								</div>
+				<!-- parallax test -->
+				<div class="parallax">
+					<div id="group1" class="parallax-group">
+						<div class="parallax-layer parallax-layer-base">
+							<img src="images/project_images/pop/3d-1041x1041.png">
+							<div class="group1-green">
+								<img src="images/project_images/pop/bsb-poster4-1041x1041.png">
+							</div>
+						</div>
+					</div>
+					<div id="group2" class="parallax-group">
+						<div class="parallax-layer parallax-layer-fore">
+							<div class="group2-orange">
+								<img src="images/project_images/pop/vexel/alicia-vexel-1920x1080.png">
+							</div>
+						</div>
+						<div class="parallax-layer parallax-layer-base">
+							<div class="group2-blue">
+								<img src="images/project_images/pop/vexel/miley-vexel-1920x1080.png">
+							</div>
+						</div>
+						<div class="parallax-layer parallax-layer-deep">
+							<div class="group2-yellow">
+								<img src="images/project_images/pop/vexel/zhavia-vexel-1920x1080.png">
+							</div>
+						</div>
+					</div>
+					<div id="group3" class="parallax-group">
+						<div class="parallax-layer parallax-layer-fore">
+							<div class="group3-bluesmall">
+								<img src="images/project_images/pop/fluid-gradient-1041x1041.png">
+							</div>
+						</div>
+						<div class="parallax-layer parallax-layer-base">
+							<div class="group3-red">
+								<img src="images/project_images/pop/3d-glitch-1041x1041.png">
+							</div>
+						</div>
+					</div>
+					<div id="group4" class="parallax-group">
+						<div class="parallax-layer parallax-layer-base">
+							<div clas="group4-orange">
+								<img src="images/project_images/pop/drake-poster-1041x1041.png">
+							</div>
+						</div>
+						<div class="parallax-layer parallax-layer-back">
+							<div class="group4-green">
+								<img src="images/project_images/pop/bey-poster-1041x1041.png">
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- Tabs Style 2 End -->
+				<!-- parallax test end -->
+
+			
 
 			<!-- Content End -->
 
