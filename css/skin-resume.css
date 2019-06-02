@@ -3517,7 +3517,7 @@ blockquote.border{
 	border: none;
 }
 .tabs[class*="style-"]:not(.style-3) .tab-panes{
-	padding: 5rem 0 0 0;
+	padding: 0rem 0 0 0; /*was 5*/
 	border: none;
 	background: none;
 }
