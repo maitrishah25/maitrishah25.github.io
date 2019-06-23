@@ -563,7 +563,7 @@ body,
 /* Header Inner Top */
 .header .header-inner-top{
 	height: 4rem;
-	background: #232323;
+	/*background: #232323;*/
 	color: #fff;
 }
 
@@ -3184,6 +3184,11 @@ a.disabled .text-line{
 .ms-icon {
 	position: relative;
 	top: -8px;
+}
+
+.ms-icon-2 {
+	position: relative;
+	top: 2px;
 }
 
 .ms-icon-left {
