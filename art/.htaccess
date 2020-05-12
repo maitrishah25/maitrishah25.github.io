@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Site"
-AuthUserFile /maitrishah25.github.io/art
-require valid-user
