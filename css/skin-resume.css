@@ -42,6 +42,146 @@ Copyright: ThemeMountain
 [1. Typography]
 */
 
+/*pills styling*/
+.pill {
+  border: 3px solid #fff;
+  border-radius: 30px;
+/*   background-image: url("https://via.placeholder.com/150"); */
+  box-shadow: 5px 5px 5px #eee;
+  margin: 5px;
+  font-family: sans-serif;
+}
+
+#pill1 {
+  background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill2 {
+  background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill3 {
+background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill4 {
+  background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill5 {
+  background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill6 {
+  background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill7 {
+  background: #e43a15;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill8 {
+  background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill9 {
+  background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill10 {
+background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill11{
+  background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill12{
+  background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill13{
+  background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill14{
+  background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill15{
+  background: #CAC531;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#pill16{
+  background: #f953c6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+/*end pills styling*/
+
 body{
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
