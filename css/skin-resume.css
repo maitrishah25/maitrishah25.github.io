@@ -454,6 +454,10 @@ a.animated-link:hover .text-line,
 	h6{
 		font-size: 1.1rem;
 	}
+	.ms-title-xlarge{
+		font-size: 6rem;
+		line-height: 1.2;
+	}
 	.title-xlarge{
 		font-size: 5.826rem;
 	}
