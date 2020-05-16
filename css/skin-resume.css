@@ -321,6 +321,11 @@ h6{
 }
 
 /* Title Classes */
+
+.ms-title-xlarge{
+	font-size: 15rem;
+	line-height: 1.2;
+}
 .title-xlarge{
 	font-size: 7.749rem;
 	line-height: 1.2;
