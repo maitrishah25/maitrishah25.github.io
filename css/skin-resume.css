@@ -42,12 +42,54 @@ Copyright: ThemeMountain
 [1. Typography]
 */
 
+.demo-img {
+  color: white;
+  line-height: 1.5rem;
+  padding: 30px;
+}
+
+#container {
+  perspective: 30px;
+  width: 90%;
+}
+
+#inner {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+}
+
+.demo-img {
+  /*border: solid white 15px;*/
+/*   background-color: black; */
+  background-image: url(https://livewallpaperhd.com/wp-content/uploads/2017/07/Dark-Elegant-Wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.demo-overlay {
+  width: 25em;
+  padding: 10em 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.4s;
+}
+
+.demo-overlay svg {
+  display: block;
+  margin: 0 auto;
+  fill: white;
+}
+/*about me card styling end*/
+
 /*pills styling*/
 .pill {
   border: 3px solid #fff;
   border-radius: 30px;
 /*   background-image: url("https://via.placeholder.com/150"); */
-  box-shadow: 5px 5px 5px #eee;
+  /*box-shadow: 5px 5px 5px #eee;*/
   margin: 5px;
   font-family: sans-serif;
 }
