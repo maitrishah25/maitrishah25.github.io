@@ -41,6 +41,10 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [1. Typography]
 */
+@font-face {
+  font-family: integral-cf;
+  src: url(../fonts/integral-cf/IntegralCF-ExtraBold.otf);
+}
 
 .demo-img {
   color: white;
@@ -256,7 +260,7 @@ textarea,
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a{
-		font-family: /*Georgia,*/ 'Lato', 'Helvetica Neue', sans-serif;
+		font-family: /*Georgia,*/ integral-cf, 'Lato', 'Helvetica Neue', sans-serif;
 }
 
 /* Titles */
