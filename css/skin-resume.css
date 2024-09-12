@@ -40,6 +40,18 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [1. Typography]
 */
+
+
+.ms-svg-container {
+	width: 100vw;
+	height: 100vh;
+}
+
+.ms-svg {
+	width: 50%;
+	height: 70%;
+}
+
 @font-face {
   font-family: integral-cf;
   src: url(../fonts/integral-cf/IntegralCF-ExtraBold.otf);
